@@ -1,0 +1,341 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'El Messiri', sans-serif;
+}
+.header {
+    background: #fff;
+    height: 120px;
+    font-family: 'El Messiri', sans-serif;
+    margin: 0px -8px;
+    margin-top: -8px;
+}
+.logo {
+    float: right;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+.list {
+    float: right;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.header .list ul {
+    list-style: none;
+}
+.header .list li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+.header .list li:hover {
+    color: #3fe58a;
+}
+.header .skill {
+    float: left;
+    padding-top: 32px;
+    font-size: 15px;
+    padding-left: 25px;
+}
+.header .skill a {
+    text-decoration: none;
+    padding: 10px;
+}
+.publish {
+    width: 104px;
+    display: inline-block;
+    height: 33px;
+    border-radius: 17px;
+    background: #2f2f2f;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+}
+.login {
+    display: inline-block;
+    width: 102px;
+    height: 31px;
+    margin-left: 4px;
+    border: 1px solid #b4b4b4;
+    border-radius: 17px;
+    background: #fff;
+    line-height: 33px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+    color: #838383;
+}
+a.search {
+    text-decoration: none;
+    color: #ffffff;
+}
+i.fas.fa-search {
+    border: 17px solid #b4b4b4;
+    border-radius: 50%;
+    background-color: #b4b4b4;
+}
+.slider-bk {
+    background-image: url(https://webtoons-static.pstatic.net/image/pc/home_bg010.jpg);
+    height: 583px;
+    margin: 0 -8px;
+}
+.slider {
+    padding: 20px 70px;
+    width: 1120px;
+}
+.slide {
+    width: 960px;
+    height: 540px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 15px;
+}
+.prev, .next {
+    width: 50px;
+    float: left;
+    margin-top: 270px;
+    cursor: pointer;
+    padding: 10px;
+}
+.slide .show {
+    display: inline-block;
+}
+.days {
+    background-color: #fff;
+    margin: 0 -8px;
+}
+.days ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+.days ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.days ul li:hover {
+    background-color: #3fe58a;
+    color: #fff
+}
+.days .active {
+    background-color: #3fe58a;
+    color: #fff;
+}
+.container {
+    margin: 5px auto;
+    max-width: 930px;
+}
+.manga-card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+.manga-card img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.manga-card .text {
+    width: 200px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text h4, p {
+    text-align: center;
+    margin: 8px;
+}
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.fade {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: chocolate;
+}
+.manga-card:hover .overlay,
+.manga-card:hover .fade {
+    opacity: 1;
+}
+.green {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: green;
+}
+.manga-card:hover .overlay,
+.manga-card:hover .green {
+    opacity: 1;
+}
+.pink {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(134, 33, 192);
+}
+.manga-card:hover .overlay,
+.manga-card:hover .pink {
+    opacity: 1;
+}
+.popular {
+    background-color: #fff;
+    margin: 0px 0px;
+    width: 100%;
+    height: 670px;
+}
+.popular .list-container {
+    padding: 20px 0px;
+}
+.popular .list-1 {
+    width: 50%;
+    float: right;
+}
+.popular .list-1 ul {
+    list-style: none;
+}
+.popular .list-1 li {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    margin: 10px 0px;
+}
+.popular .list-1 img {
+    width: 92px;
+    height: 98px;
+}
+.popular .list-2 {
+    width: 50%;
+    float: left;
+}
+.popular .list-2 ul {
+    list-style: none;
+}
+.popular .list-2 li {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    margin: 10px 0px;
+}
+.popular .list-2 img {
+    width: 92px;
+    height: 98px;
+}
+.list-1 .gare {
+    padding-right: 40px;
+    font-size: 25px;
+}
+.list-2 .age {
+    padding-right: 40px;
+    font-size: 25px;
+}
+.genre.romans {
+    font-size: 10px;
+    color: crimson;
+}
+.genre.action {
+    font-size: 10px;
+    color: rgb(45, 196, 31);
+}
+.genre.adventure {
+    font-size: 10px;
+    color: rgb(77, 44, 168);
+}
+.title {
+    font-size: 20px;
+}
+.author {
+    font-size: 10px;
+}
+.genre.big {
+    font-size: 10px;
+    color: crimson;
+}
+.genre.teen {
+    font-size: 10px;
+    color: rgb(45, 196, 31);
+}
+.genre.baby {
+    font-size: 10px;
+    color: rgb(77, 44, 168);
+}
+.canvas-container {
+    width: 100%;
+    height: 400px;
+    margin: 10px 0;
+}
+.canvas {
+    padding: 10px;
+    width: 30%;
+    float: right;
+}
+.canvas h3 {
+    font-size: 35px;
+    color: #02d165;
+    margin: 10px;
+    text-align: center;
+}
+.canvas p {
+    margin: 10px;
+}
+.canvas-pic {
+    padding: 10px;
+    width: 65%;
+    float: left;
+}
+.canvas-pic img {
+    width: 162px;
+    height: 162px;
+    display: inline-block;
+}
+.btn-area {
+    position: relative;
+    min-width: 90px;
+    height: 46px;
+    line-height: 49px;
+    padding: 0 45px 0 32px;
+    background: #00dc64;
+    font-size: 16px;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+} 
+footer {
+    text-align: center;
+    background-color: #fff;
+}
+.icon-media i {
+    padding: 10px;
+    font-size: 20px;
+}
+ul.media {
+    list-style: none;
+}
+.media li {
+    display: inline-block;
+    padding: 10px;
+    border-block: 1px solid #e4e4e4;
+}
+p.copt-right {
+    color: #ddd;
+    text-align: center;
+}
